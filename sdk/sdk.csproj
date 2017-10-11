@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32388118-AD62-913E-05A9-E2FC03FC675F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXIntel64:27</UnityBuildTarget>
+    <UnityVersion>2017.1.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <AutoUnifyAssemblyReferences>false</AutoUnifyAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <AutoUnifyAssemblyReferences>false</AutoUnifyAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Examples\3rdparty\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_Bar.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_CameraFollow.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_HeartHandler.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_PeriscopeMenu.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_Snail.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_SnailRacingController.cs" />
+    <Compile Include="Assets\Examples\Scripts\AVR_TeamManager.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\AssemblyInfo.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\ByteOrder.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\CloseEventArgs.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\CloseStatusCode.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\CompressionMethod.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\ErrorEventArgs.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Ext.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Fin.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\HttpBase.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\HttpRequest.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\HttpResponse.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\LogData.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Logger.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\LogLevel.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Mask.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\MessageEventArgs.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\AuthenticationBase.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\AuthenticationResponse.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\Chunk.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ChunkStream.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ClientSslConfiguration.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\Cookie.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\CookieCollection.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\CookieException.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\EndPointListener.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\EndPointManager.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpConnection.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpDigestIdentity.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpHeaderType.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListener.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerAsyncResult.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerContext.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerException.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerPrefix.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerRequest.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpListenerResponse.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpRequestHeader.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpResponseHeader.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpStatusCode.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpUtility.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\HttpVersion.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\InputChunkState.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\InputState.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\LineState.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\NetworkCredential.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\QueryStringCollection.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ReadBufferState.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\RequestStream.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ResponseStream.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\ServerSslConfiguration.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\WebHeaderCollection.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Net\WebSockets\WebSocketContext.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Opcode.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\PayloadData.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Rsv.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\HttpRequestEventArgs.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\HttpServer.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\IWebSocketSession.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\ServerState.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketBehavior.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketServer.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketServiceHost`1.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketServiceManager.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\Server\WebSocketSessionManager.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\WebSocket.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\WebSocketException.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\WebSocketFrame.cs" />
+    <Compile Include="Assets\Periscope\3rdparty\websocket-sharp-master\websocket-sharp\WebSocketState.cs" />
+    <Compile Include="Assets\Periscope\Scripts\APIManager.cs" />
+    <Compile Include="Assets\Periscope\Scripts\EmojiHandler.cs" />
+    <Compile Include="Assets\Periscope\Scripts\Events.cs" />
+    <Compile Include="Assets\Periscope\Scripts\EventsDispatcher.cs" />
+    <Compile Include="Assets\Periscope\Scripts\EventsProcessor.cs" />
+    <Compile Include="Assets\Periscope\Scripts\FNV1a.cs" />
+    <Compile Include="Assets\Periscope\Scripts\LRUCache.cs" />
+    <Compile Include="Assets\Periscope\Scripts\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\Periscope\Scripts\User.cs" />
+    <Compile Include="Assets\Periscope\Scripts\UserGroupsManager.cs" />
+    <Compile Include="Assets\Periscope\Scripts\UserHasher.cs" />
+    <Compile Include="Assets\Periscope\Scripts\WebSocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Examples\3rdparty\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Examples\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Examples\Shaders\BarShader.shader" />
+    <None Include="Assets\Periscope\3rdparty\websocket-sharp-master\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
