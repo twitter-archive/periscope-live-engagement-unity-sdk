@@ -185,6 +185,7 @@ namespace Periscope
          */
         [Header("Dev Params")]
         public string clientId = "";
+        public bool enableDms;
         public bool useDevServers;
         public bool useLocalhost;
         public int localhostPort = 8080;
@@ -948,9 +949,10 @@ namespace Periscope
             if (!String.IsNullOrEmpty(clientId))
             {
                 authenticationStatus = AuthenticationStatus.Waiting;
+                string scope = enableDms ? "chat chat_dm" : "chat";
                 string payload = String.Format(
-                    @"{{""client_id"":""{0}"",""scope"":""chat chat_dm""}}",
-                    clientId);
+                    @"{{""client_id"":""{0}"",""scope"":""{1}""}}",
+                    clientId, scope);
                 yield return HandleAPIRequest<DeviceCodeCreateResponse>(
                     APIHttpHost,
                     deviceCodeCreateEndpointPath,
