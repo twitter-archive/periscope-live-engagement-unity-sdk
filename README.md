@@ -1,3 +1,7 @@
+![status: archived](https://img.shields.io/badge/status-archived-red)
+
+[Periscope was sunset in March 2021](https://help.twitter.com/en/using-twitter/periscope-faq).
+
 # Periscope SDK for Unity
 
 This SDK allows developers to integrate Periscope APIs with their Unity
